@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/276.fabd2ef5.chunk.css","mappings":"AAAA,uBAEI,SAAQ,CADR,WACS,CAEb,8CACA","sources":["components/Page/HomePage/HomePage.module.scss"],"sourcesContent":[".title{\n    margin: 20px;\n    color:red;\n}\n.listItem >li:not(:last-child){\nmargin-bottom: 10px;\n}"],"names":[],"sourceRoot":""}
