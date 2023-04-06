@@ -1,0 +1,28 @@
+.form {
+  margin: 35px;
+}
+.input {
+  height: 35px;
+  width: 250px;
+  background: #fefefe;
+  border: 0.854167px solid #005999;
+  outline: none;
+}
+.button {
+  height: 35px;
+  width: 35px;
+  background: #fefefe;
+  border: 0.854167px solid #005999;
+  outline: none;
+  box-sizing: content-box;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background-color: #005999;
+    color:white
+  }
+}
+.listItem >li:not(:last-child){
+    margin-bottom: 10px;
+    }

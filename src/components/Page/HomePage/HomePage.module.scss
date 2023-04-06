@@ -1,0 +1,7 @@
+.title{
+    margin: 20px;
+    color:red;
+}
+.listItem >li:not(:last-child){
+margin-bottom: 10px;
+}
