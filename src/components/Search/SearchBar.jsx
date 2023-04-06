@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import { findMovies } from '../service/API';
 import { ListMovie } from '../ListMovie/ListMovie';
 import s from './SearchBar.module.scss';
-import { Notify } from 'notiflix';
 
 const SearchBar = () => {
   const [input, setInput] = useState('');

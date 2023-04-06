@@ -1,4 +1,4 @@
-import { Navigate, Outlet, Route, Routes, useNavigate } from 'react-router-dom';
+import { Navigate, Outlet, Route, Routes } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import MainNav from './MainNav/MainNav';
 

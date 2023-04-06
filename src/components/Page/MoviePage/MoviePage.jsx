@@ -1,8 +1,5 @@
-import { SearchBar } from '../../Search/SearchBar';
-import { useEffect, useState } from 'react';
-import { Outlet, useSearchParams } from 'react-router-dom';
-import { findMovies } from '../../service/API';
-import {ListMovie} from '../../ListMovie/ListMovie'
+import { Outlet } from 'react-router-dom';
+
 
  const MoviePage = () => {
   return (

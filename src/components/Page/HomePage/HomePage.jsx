@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getTrends } from '../../service/API';
 import { ListMovie } from '../../ListMovie/ListMovie';
-import {  useLocation } from 'react-router-dom';
 import s from "./HomePage.module.scss";
 
 const HomePage = () => {

@@ -1,4 +1,4 @@
-import { useParams, Outlet, Link, useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { getCast } from '../service/API';
 
@@ -10,7 +10,7 @@ const Review = () => {
     getCast('reviews', movieId)
       .then(res => setReviews(res.results))
       .catch(e => console.log(e));
-  }, [review]);
+  }, [review, movieId]);
 
   return (
     <>
